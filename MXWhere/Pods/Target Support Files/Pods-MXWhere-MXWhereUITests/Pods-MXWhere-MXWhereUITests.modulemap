@@ -1,0 +1,6 @@
+framework module Pods_MXWhere_MXWhereUITests {
+  umbrella header "Pods-MXWhere-MXWhereUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

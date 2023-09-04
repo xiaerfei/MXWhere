@@ -1,0 +1,919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		EF56599DBB6DDC35355639C488341137 /* ffmpeg-kit-macos-full */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 40E72741E821A0FF253DA6298AD1AFA0 /* Build configuration list for PBXAggregateTarget "ffmpeg-kit-macos-full" */;
+			buildPhases = (
+				C27BF657AD5D29309E78AB673DD76E8F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "ffmpeg-kit-macos-full";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		10389D04BCF76C14E13D7E3D04C66394 /* Pods-MXWhere-MXWhereUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1778C100AFBCD85811B07DA63E1A14 /* Pods-MXWhere-MXWhereUITests-dummy.m */; };
+		133156F059632A7557FC4AF4B1856B33 /* Pods-MXWhere-MXWhereUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD68BEC8107D0EAADA3A8C0896388498 /* Pods-MXWhere-MXWhereUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20A7A9DF8F96E5E032B8B8FC567D8F37 /* Pods-MXWhere-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BD5E1F45D690AB8DF8B4755042AC49 /* Pods-MXWhere-dummy.m */; };
+		31BA403ABABB62D32C61D8868FBC3AEE /* Pods-MXWhereTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE8470D3A64A18FB58D6B3E3A6A81FE /* Pods-MXWhereTests-dummy.m */; };
+		6124F7B702864FCCE51ED3F969D2C940 /* Pods-MXWhereTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D864377F76601CF4F55BAD081ABF36D1 /* Pods-MXWhereTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A194AE1943C45890238DB73C552D7434 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		C77C8963E09A185932F9924874F0B534 /* Pods-MXWhere-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31EFFE24E981E5E2ED692390FD9CC9E3 /* Pods-MXWhere-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC612167FD88FC02025A824C2D401D52 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		F86850F13E0FAF7E4911D0BCD707DCE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DA1847E58EA5733DEAEDDBF0C3B500D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF56599DBB6DDC35355639C488341137;
+			remoteInfo = "ffmpeg-kit-macos-full";
+		};
+		67C463D6538D1324EEC379E79CF1717B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB39C2446B5794B8AA3A3B2C56261E3;
+			remoteInfo = "Pods-MXWhere";
+		};
+		9CA2E94B6F0F8B53AEAAFB3FC55E196D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF56599DBB6DDC35355639C488341137;
+			remoteInfo = "ffmpeg-kit-macos-full";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B8B49BDB46759D56B4A5F18B3D4AB1 /* Pods-MXWhere-MXWhereUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXWhere-MXWhereUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A39AA2E7E9AE88486252AA9111A557A /* Pods-MXWhere-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXWhere-Info.plist"; sourceTree = "<group>"; };
+		1426854432CC32891EB2873ACA461B66 /* ffmpeg-kit-macos-full.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ffmpeg-kit-macos-full.debug.xcconfig"; sourceTree = "<group>"; };
+		16296E4F10558CE12F72502A691D8707 /* Pods-MXWhere-MXWhereUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXWhere-MXWhereUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		195E60CF65DD1658DE3BA8B77F9F73B3 /* Pods-MXWhere-MXWhereUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXWhere-MXWhereUITests.modulemap"; sourceTree = "<group>"; };
+		2B7B30A41A974FA3A5FE2FF8E50639AD /* Pods-MXWhere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXWhere.release.xcconfig"; sourceTree = "<group>"; };
+		31EFFE24E981E5E2ED692390FD9CC9E3 /* Pods-MXWhere-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXWhere-umbrella.h"; sourceTree = "<group>"; };
+		32F134B074C54E236D8BCE832FD5A89C /* libavfilter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavfilter.xcframework; sourceTree = "<group>"; };
+		37BD5E1F45D690AB8DF8B4755042AC49 /* Pods-MXWhere-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXWhere-dummy.m"; sourceTree = "<group>"; };
+		3BE6CAD1CF45B41006031C0004BF4A22 /* Pods-MXWhere */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MXWhere"; path = Pods_MXWhere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4021405FAC87BB79A32F23F623C55F6E /* Pods-MXWhereTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXWhereTests-Info.plist"; sourceTree = "<group>"; };
+		45BE420FBD0D3EB9C4D61F68A8F158FF /* libavutil.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavutil.xcframework; sourceTree = "<group>"; };
+		493CE079BAC07DC1FED27CDAA43DBDEA /* Pods-MXWhere-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXWhere-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5012898679C53E46802D1686BAF7F8A7 /* Pods-MXWhereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXWhereTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69FEFBDBEE479885A5D41FDE757C7759 /* ffmpeg-kit-macos-full-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "ffmpeg-kit-macos-full-xcframeworks.sh"; sourceTree = "<group>"; };
+		7A667791A3EB62D7A0F5E383CD6EEE02 /* ffmpegkit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = ffmpegkit.xcframework; sourceTree = "<group>"; };
+		80080F6BE2162E62B4CE59D21069B97E /* libswresample.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswresample.xcframework; sourceTree = "<group>"; };
+		80E6E8D17B7CB06AC3F51D9E6283E9F8 /* Pods-MXWhere-MXWhereUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXWhere-MXWhereUITests-Info.plist"; sourceTree = "<group>"; };
+		84F836E54D2E7B5E03A389AD047924E4 /* Pods-MXWhereTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXWhereTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CE8470D3A64A18FB58D6B3E3A6A81FE /* Pods-MXWhereTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXWhereTests-dummy.m"; sourceTree = "<group>"; };
+		8F3D02ADC984F474A153F3336FC16CEA /* Pods-MXWhereTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXWhereTests.modulemap"; sourceTree = "<group>"; };
+		988E4D66C916A3A91F87AD1EF9D8FD8C /* Pods-MXWhereTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MXWhereTests"; path = Pods_MXWhereTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A235EBD4BD2CDE2666DEA4DEBFED32E5 /* Pods-MXWhereTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXWhereTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AF527158585639D4DCC5CA72189C15AB /* Pods-MXWhere.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXWhere.modulemap"; sourceTree = "<group>"; };
+		B684C24599656174217C1E926D1A0F08 /* Pods-MXWhere-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXWhere-frameworks.sh"; sourceTree = "<group>"; };
+		B6FFE532E4311EB34BB3921D8D2E2A51 /* Pods-MXWhere-MXWhereUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXWhere-MXWhereUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B8E03A51CC43B06A2F2DB532341A0FB8 /* libswscale.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libswscale.xcframework; sourceTree = "<group>"; };
+		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		C29DFE182062FBCA06CDB09EB5C82D5D /* libavdevice.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavdevice.xcframework; sourceTree = "<group>"; };
+		CB1778C100AFBCD85811B07DA63E1A14 /* Pods-MXWhere-MXWhereUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXWhere-MXWhereUITests-dummy.m"; sourceTree = "<group>"; };
+		CE63A973F9F83648AF8C2F7A7436A8AD /* ffmpeg-kit-macos-full.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ffmpeg-kit-macos-full.release.xcconfig"; sourceTree = "<group>"; };
+		D35B68AFDAA07E40DA0EFD5CBAB853DE /* libavcodec.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavcodec.xcframework; sourceTree = "<group>"; };
+		D4B0F43621B44E2633B5F72260E03F4F /* Pods-MXWhere-MXWhereUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXWhere-MXWhereUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D864377F76601CF4F55BAD081ABF36D1 /* Pods-MXWhereTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXWhereTests-umbrella.h"; sourceTree = "<group>"; };
+		DD68BEC8107D0EAADA3A8C0896388498 /* Pods-MXWhere-MXWhereUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXWhere-MXWhereUITests-umbrella.h"; sourceTree = "<group>"; };
+		E19449CF137CD6EA730565A50ED360FE /* Pods-MXWhereTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXWhereTests.release.xcconfig"; sourceTree = "<group>"; };
+		E60BA5EE5ECD4FF38A9046BD6B86DB07 /* Pods-MXWhere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXWhere.debug.xcconfig"; sourceTree = "<group>"; };
+		E67D1A411E32E312934EDC2DA6E601C3 /* libavformat.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = libavformat.xcframework; sourceTree = "<group>"; };
+		FACB558E9CFC3D942A7520163260E2C0 /* Pods-MXWhere-MXWhereUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MXWhere-MXWhereUITests"; path = Pods_MXWhere_MXWhereUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2E494E209296F285095689324373D4 /* Pods-MXWhere-MXWhereUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXWhere-MXWhereUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF79C40B2ABC3805F2F05E9B1AB32726 /* Pods-MXWhere-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXWhere-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0107D332D7E304435590181C6E2117D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86850F13E0FAF7E4911D0BCD707DCE8 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62BA8D6F20E431EFEDF895F5E607E882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC612167FD88FC02025A824C2D401D52 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E1B88E14D045918BC3E900A07406A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A194AE1943C45890238DB73C552D7434 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FFE216791F662D59F1762A5C9914C2A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				981EB23DDA097614BE4A5A32D06B788B /* Pods-MXWhere */,
+				F53127357E96D49BD6990395E0183278 /* Pods-MXWhere-MXWhereUITests */,
+				8DBCDB4F44FC6A19C2758FFA9850C037 /* Pods-MXWhereTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1BA82DF1E37F7C22342B215834BECB58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BE6CAD1CF45B41006031C0004BF4A22 /* Pods-MXWhere */,
+				FACB558E9CFC3D942A7520163260E2C0 /* Pods-MXWhere-MXWhereUITests */,
+				988E4D66C916A3A91F87AD1EF9D8FD8C /* Pods-MXWhereTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CA68D77446D91558B180B72C1E2D701 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F431116C09B2FE3C5C42C284CCE18C45 /* ffmpeg-kit-macos-full */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8DBCDB4F44FC6A19C2758FFA9850C037 /* Pods-MXWhereTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F3D02ADC984F474A153F3336FC16CEA /* Pods-MXWhereTests.modulemap */,
+				A235EBD4BD2CDE2666DEA4DEBFED32E5 /* Pods-MXWhereTests-acknowledgements.markdown */,
+				84F836E54D2E7B5E03A389AD047924E4 /* Pods-MXWhereTests-acknowledgements.plist */,
+				8CE8470D3A64A18FB58D6B3E3A6A81FE /* Pods-MXWhereTests-dummy.m */,
+				4021405FAC87BB79A32F23F623C55F6E /* Pods-MXWhereTests-Info.plist */,
+				D864377F76601CF4F55BAD081ABF36D1 /* Pods-MXWhereTests-umbrella.h */,
+				5012898679C53E46802D1686BAF7F8A7 /* Pods-MXWhereTests.debug.xcconfig */,
+				E19449CF137CD6EA730565A50ED360FE /* Pods-MXWhereTests.release.xcconfig */,
+			);
+			name = "Pods-MXWhereTests";
+			path = "Target Support Files/Pods-MXWhereTests";
+			sourceTree = "<group>";
+		};
+		981EB23DDA097614BE4A5A32D06B788B /* Pods-MXWhere */ = {
+			isa = PBXGroup;
+			children = (
+				AF527158585639D4DCC5CA72189C15AB /* Pods-MXWhere.modulemap */,
+				493CE079BAC07DC1FED27CDAA43DBDEA /* Pods-MXWhere-acknowledgements.markdown */,
+				FF79C40B2ABC3805F2F05E9B1AB32726 /* Pods-MXWhere-acknowledgements.plist */,
+				37BD5E1F45D690AB8DF8B4755042AC49 /* Pods-MXWhere-dummy.m */,
+				B684C24599656174217C1E926D1A0F08 /* Pods-MXWhere-frameworks.sh */,
+				0A39AA2E7E9AE88486252AA9111A557A /* Pods-MXWhere-Info.plist */,
+				31EFFE24E981E5E2ED692390FD9CC9E3 /* Pods-MXWhere-umbrella.h */,
+				E60BA5EE5ECD4FF38A9046BD6B86DB07 /* Pods-MXWhere.debug.xcconfig */,
+				2B7B30A41A974FA3A5FE2FF8E50639AD /* Pods-MXWhere.release.xcconfig */,
+			);
+			name = "Pods-MXWhere";
+			path = "Target Support Files/Pods-MXWhere";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				5CA68D77446D91558B180B72C1E2D701 /* Pods */,
+				1BA82DF1E37F7C22342B215834BECB58 /* Products */,
+				0FFE216791F662D59F1762A5C9914C2A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2A8756CA1FF5258A0344D53C5C60EC1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		E3E54CD31138546EF85B8C6DC7360069 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69FEFBDBEE479885A5D41FDE757C7759 /* ffmpeg-kit-macos-full-xcframeworks.sh */,
+				1426854432CC32891EB2873ACA461B66 /* ffmpeg-kit-macos-full.debug.xcconfig */,
+				CE63A973F9F83648AF8C2F7A7436A8AD /* ffmpeg-kit-macos-full.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ffmpeg-kit-macos-full";
+			sourceTree = "<group>";
+		};
+		F431116C09B2FE3C5C42C284CCE18C45 /* ffmpeg-kit-macos-full */ = {
+			isa = PBXGroup;
+			children = (
+				F9D86E9B1F22D95B905192DCD84C2848 /* Frameworks */,
+				E3E54CD31138546EF85B8C6DC7360069 /* Support Files */,
+			);
+			name = "ffmpeg-kit-macos-full";
+			path = "ffmpeg-kit-macos-full";
+			sourceTree = "<group>";
+		};
+		F53127357E96D49BD6990395E0183278 /* Pods-MXWhere-MXWhereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				195E60CF65DD1658DE3BA8B77F9F73B3 /* Pods-MXWhere-MXWhereUITests.modulemap */,
+				07B8B49BDB46759D56B4A5F18B3D4AB1 /* Pods-MXWhere-MXWhereUITests-acknowledgements.markdown */,
+				16296E4F10558CE12F72502A691D8707 /* Pods-MXWhere-MXWhereUITests-acknowledgements.plist */,
+				CB1778C100AFBCD85811B07DA63E1A14 /* Pods-MXWhere-MXWhereUITests-dummy.m */,
+				B6FFE532E4311EB34BB3921D8D2E2A51 /* Pods-MXWhere-MXWhereUITests-frameworks.sh */,
+				80E6E8D17B7CB06AC3F51D9E6283E9F8 /* Pods-MXWhere-MXWhereUITests-Info.plist */,
+				DD68BEC8107D0EAADA3A8C0896388498 /* Pods-MXWhere-MXWhereUITests-umbrella.h */,
+				D4B0F43621B44E2633B5F72260E03F4F /* Pods-MXWhere-MXWhereUITests.debug.xcconfig */,
+				FF2E494E209296F285095689324373D4 /* Pods-MXWhere-MXWhereUITests.release.xcconfig */,
+			);
+			name = "Pods-MXWhere-MXWhereUITests";
+			path = "Target Support Files/Pods-MXWhere-MXWhereUITests";
+			sourceTree = "<group>";
+		};
+		F9D86E9B1F22D95B905192DCD84C2848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A667791A3EB62D7A0F5E383CD6EEE02 /* ffmpegkit.xcframework */,
+				D35B68AFDAA07E40DA0EFD5CBAB853DE /* libavcodec.xcframework */,
+				C29DFE182062FBCA06CDB09EB5C82D5D /* libavdevice.xcframework */,
+				32F134B074C54E236D8BCE832FD5A89C /* libavfilter.xcframework */,
+				E67D1A411E32E312934EDC2DA6E601C3 /* libavformat.xcframework */,
+				45BE420FBD0D3EB9C4D61F68A8F158FF /* libavutil.xcframework */,
+				80080F6BE2162E62B4CE59D21069B97E /* libswresample.xcframework */,
+				B8E03A51CC43B06A2F2DB532341A0FB8 /* libswscale.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5F99C413189070F9366E9658AEDE2262 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C8963E09A185932F9924874F0B534 /* Pods-MXWhere-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		919D2C2ACF2404E90D50371158C9D025 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				133156F059632A7557FC4AF4B1856B33 /* Pods-MXWhere-MXWhereUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60164CE7B4946C3F499C43557736C5C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6124F7B702864FCCE51ED3F969D2C940 /* Pods-MXWhereTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2533DB1D8806C94EDDD29E5C54FBAE81 /* Pods-MXWhereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B420E8D156A57A578D7623C4C8F42A /* Build configuration list for PBXNativeTarget "Pods-MXWhereTests" */;
+			buildPhases = (
+				B60164CE7B4946C3F499C43557736C5C /* Headers */,
+				6A0EAD0518053BF05A9895B7579A52A4 /* Sources */,
+				0107D332D7E304435590181C6E2117D8 /* Frameworks */,
+				0B17BC52ECBC364A6E19D0C92F8ECF67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A87E58E3764A8422C06E88941CF5EEE /* PBXTargetDependency */,
+			);
+			name = "Pods-MXWhereTests";
+			productName = Pods_MXWhereTests;
+			productReference = 988E4D66C916A3A91F87AD1EF9D8FD8C /* Pods-MXWhereTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		75F5268A214F4CDECE98D4C87EF35A6F /* Pods-MXWhere-MXWhereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58E967AB588937C4D6386F73FF8033B /* Build configuration list for PBXNativeTarget "Pods-MXWhere-MXWhereUITests" */;
+			buildPhases = (
+				919D2C2ACF2404E90D50371158C9D025 /* Headers */,
+				A04E6C79DA520DF26FC4002DDF316587 /* Sources */,
+				8E1B88E14D045918BC3E900A07406A96 /* Frameworks */,
+				1E7FCB5BF0FCFAB99E1D5D6EC12A8639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3401B4FE1EE49FCB63DC3F32A6D2DE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-MXWhere-MXWhereUITests";
+			productName = Pods_MXWhere_MXWhereUITests;
+			productReference = FACB558E9CFC3D942A7520163260E2C0 /* Pods-MXWhere-MXWhereUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAB39C2446B5794B8AA3A3B2C56261E3 /* Pods-MXWhere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DECF0F8F1154D153A0118F439EA59DCE /* Build configuration list for PBXNativeTarget "Pods-MXWhere" */;
+			buildPhases = (
+				5F99C413189070F9366E9658AEDE2262 /* Headers */,
+				83AFCBA981F6155D6CAA511372130CD9 /* Sources */,
+				62BA8D6F20E431EFEDF895F5E607E882 /* Frameworks */,
+				7820FE4F17C397A94ED1CBB191B4E06F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FFA8D04FF76D95357CA712CA6CCEC0E /* PBXTargetDependency */,
+			);
+			name = "Pods-MXWhere";
+			productName = Pods_MXWhere;
+			productReference = 3BE6CAD1CF45B41006031C0004BF4A22 /* Pods-MXWhere */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1BA82DF1E37F7C22342B215834BECB58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF56599DBB6DDC35355639C488341137 /* ffmpeg-kit-macos-full */,
+				EAB39C2446B5794B8AA3A3B2C56261E3 /* Pods-MXWhere */,
+				75F5268A214F4CDECE98D4C87EF35A6F /* Pods-MXWhere-MXWhereUITests */,
+				2533DB1D8806C94EDDD29E5C54FBAE81 /* Pods-MXWhereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B17BC52ECBC364A6E19D0C92F8ECF67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E7FCB5BF0FCFAB99E1D5D6EC12A8639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7820FE4F17C397A94ED1CBB191B4E06F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C27BF657AD5D29309E78AB673DD76E8F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ffmpeg-kit-macos-full/ffmpeg-kit-macos-full-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/ffmpeg-kit-macos-full/ffmpeg-kit-macos-full-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/ffmpeg-kit-macos-full/ffmpeg-kit-macos-full-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A0EAD0518053BF05A9895B7579A52A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA403ABABB62D32C61D8868FBC3AEE /* Pods-MXWhereTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83AFCBA981F6155D6CAA511372130CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A7A9DF8F96E5E032B8B8FC567D8F37 /* Pods-MXWhere-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A04E6C79DA520DF26FC4002DDF316587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10389D04BCF76C14E13D7E3D04C66394 /* Pods-MXWhere-MXWhereUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A87E58E3764A8422C06E88941CF5EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MXWhere";
+			target = EAB39C2446B5794B8AA3A3B2C56261E3 /* Pods-MXWhere */;
+			targetProxy = 67C463D6538D1324EEC379E79CF1717B /* PBXContainerItemProxy */;
+		};
+		6FFA8D04FF76D95357CA712CA6CCEC0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ffmpeg-kit-macos-full";
+			target = EF56599DBB6DDC35355639C488341137 /* ffmpeg-kit-macos-full */;
+			targetProxy = 9CA2E94B6F0F8B53AEAAFB3FC55E196D /* PBXContainerItemProxy */;
+		};
+		C3401B4FE1EE49FCB63DC3F32A6D2DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ffmpeg-kit-macos-full";
+			target = EF56599DBB6DDC35355639C488341137 /* ffmpeg-kit-macos-full */;
+			targetProxy = 2DA1847E58EA5733DEAEDDBF0C3B500D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03486A05A97CF010F88B3B5C862C0610 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E19449CF137CD6EA730565A50ED360FE /* Pods-MXWhereTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXWhereTests/Pods-MXWhereTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXWhereTests/Pods-MXWhereTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0992CC3F24A9DB5E946EDE9A1913B71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		18E8ED0D7D845BE3256CD025FF0C67D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B0F43621B44E2633B5F72260E03F4F /* Pods-MXWhere-MXWhereUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXWhere-MXWhereUITests/Pods-MXWhere-MXWhereUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXWhere-MXWhereUITests/Pods-MXWhere-MXWhereUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1E0A3502BEB43E2ED7B1A839344777D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2E494E209296F285095689324373D4 /* Pods-MXWhere-MXWhereUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXWhere-MXWhereUITests/Pods-MXWhere-MXWhereUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXWhere-MXWhereUITests/Pods-MXWhere-MXWhereUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6977BA2073E6C083B4417FEC7023A5C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60BA5EE5ECD4FF38A9046BD6B86DB07 /* Pods-MXWhere.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXWhere/Pods-MXWhere-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXWhere/Pods-MXWhere.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90D57F61AD9DE5A827CA2FB729F76E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7B30A41A974FA3A5FE2FF8E50639AD /* Pods-MXWhere.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXWhere/Pods-MXWhere-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXWhere/Pods-MXWhere.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA11B79CD8E187D9F22DFEEEAF6B72F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5012898679C53E46802D1686BAF7F8A7 /* Pods-MXWhereTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MXWhereTests/Pods-MXWhereTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MODULEMAP_FILE = "Target Support Files/Pods-MXWhereTests/Pods-MXWhereTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D7198AEC4BA90E2620436679CC0E959B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE63A973F9F83648AF8C2F7A7436A8AD /* ffmpeg-kit-macos-full.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DDDCCEBE9D6A032B88BAAEA64866891F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1426854432CC32891EB2873ACA461B66 /* ffmpeg-kit-macos-full.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F464707F7EDA20BE99058C56CAE170DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E72741E821A0FF253DA6298AD1AFA0 /* Build configuration list for PBXAggregateTarget "ffmpeg-kit-macos-full" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDCCEBE9D6A032B88BAAEA64866891F /* Debug */,
+				D7198AEC4BA90E2620436679CC0E959B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464707F7EDA20BE99058C56CAE170DE /* Debug */,
+				0992CC3F24A9DB5E946EDE9A1913B71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DECF0F8F1154D153A0118F439EA59DCE /* Build configuration list for PBXNativeTarget "Pods-MXWhere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6977BA2073E6C083B4417FEC7023A5C1 /* Debug */,
+				90D57F61AD9DE5A827CA2FB729F76E4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B420E8D156A57A578D7623C4C8F42A /* Build configuration list for PBXNativeTarget "Pods-MXWhereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA11B79CD8E187D9F22DFEEEAF6B72F5 /* Debug */,
+				03486A05A97CF010F88B3B5C862C0610 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58E967AB588937C4D6386F73FF8033B /* Build configuration list for PBXNativeTarget "Pods-MXWhere-MXWhereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E8ED0D7D845BE3256CD025FF0C67D7 /* Debug */,
+				1E0A3502BEB43E2ED7B1A839344777D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
