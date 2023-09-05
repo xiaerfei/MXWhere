@@ -9,6 +9,9 @@
 #define MXExternalSourceParse_hpp
 
 #include <stdio.h>
+#include <thread>
+#include <iostream>
+#include <atomic>
 extern "C" {
 #include "libavformat/avformat.h"
 #include "libavcodec/avcodec.h"
@@ -18,10 +21,25 @@ extern "C" {
 #include "libavutil/opt.h"
 }
 class MXExternalSourceParse {
-    MXExternalSourceParse();
+private:
+    AVFormatContext *m_formatContext;
+    AVCodecContext  *m_audioCodecContext;
+    AVCodecContext  *m_videoCodecContext;
     
+    int m_videoStream;
+    int m_audioStream;
+    
+    char *m_filePath;
+    int m_index;
+    
+    std::thread m_thread;
+    
+    std::atomic<bool> m_running = false;
 public:
-    
+    MXExternalSourceParse();
+    int Start(char *path, int index);
+    int Stop();
+    bool Running();
 };
 
 
