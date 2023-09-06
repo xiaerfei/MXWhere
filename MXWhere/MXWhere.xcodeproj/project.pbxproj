@@ -11,6 +11,7 @@
 		64E24AA92082C4B6FF381DD8 /* Pods_MXWhere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8A5B6F4E0FE92C971301ED /* Pods_MXWhere.framework */; };
 		8A83B40C2AA5E01A0010CE0A /* MXThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A83B40B2AA5E01A0010CE0A /* MXThread.c */; };
 		8A83B4102AA5E9050010CE0A /* MXExternalSourceParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A83B40E2AA5E9050010CE0A /* MXExternalSourceParse.cpp */; };
+		8A83B4132AA813CC0010CE0A /* MXExternalSourceParseManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A83B4122AA813CC0010CE0A /* MXExternalSourceParseManager.mm */; };
 		8AD98F912AA59BC8004AFB0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD98F902AA59BC8004AFB0C /* AppDelegate.m */; };
 		8AD98F942AA59BC8004AFB0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD98F932AA59BC8004AFB0C /* ViewController.m */; };
 		8AD98F962AA59BCE004AFB0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AD98F952AA59BCE004AFB0C /* Assets.xcassets */; };
@@ -46,6 +47,8 @@
 		8A83B40B2AA5E01A0010CE0A /* MXThread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MXThread.c; sourceTree = "<group>"; };
 		8A83B40E2AA5E9050010CE0A /* MXExternalSourceParse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MXExternalSourceParse.cpp; sourceTree = "<group>"; };
 		8A83B40F2AA5E9050010CE0A /* MXExternalSourceParse.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MXExternalSourceParse.hpp; sourceTree = "<group>"; };
+		8A83B4112AA813CB0010CE0A /* MXExternalSourceParseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXExternalSourceParseManager.h; sourceTree = "<group>"; };
+		8A83B4122AA813CC0010CE0A /* MXExternalSourceParseManager.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MXExternalSourceParseManager.mm; sourceTree = "<group>"; };
 		8AD98F8C2AA59BC8004AFB0C /* MXWhere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXWhere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AD98F8F2AA59BC8004AFB0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AD98F902AA59BC8004AFB0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -117,7 +120,6 @@
 				13823B307E4C38B5F1D483BA /* Pods-MXWhereTests.debug.xcconfig */,
 				CF7D889DB38925A11894E378 /* Pods-MXWhereTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -168,6 +170,8 @@
 				8AD98F902AA59BC8004AFB0C /* AppDelegate.m */,
 				8AD98F922AA59BC8004AFB0C /* ViewController.h */,
 				8AD98F932AA59BC8004AFB0C /* ViewController.m */,
+				8A83B4112AA813CB0010CE0A /* MXExternalSourceParseManager.h */,
+				8A83B4122AA813CC0010CE0A /* MXExternalSourceParseManager.mm */,
 				8A83B40D2AA5E8E40010CE0A /* MXExternalSourceParse */,
 				8A83B4092AA5DF8F0010CE0A /* MXUtils */,
 				8AD98F952AA59BCE004AFB0C /* Assets.xcassets */,
@@ -434,6 +438,7 @@
 			files = (
 				8A83B40C2AA5E01A0010CE0A /* MXThread.c in Sources */,
 				8AD98F942AA59BC8004AFB0C /* ViewController.m in Sources */,
+				8A83B4132AA813CC0010CE0A /* MXExternalSourceParseManager.mm in Sources */,
 				8AD98F9B2AA59BCE004AFB0C /* main.m in Sources */,
 				8A83B4102AA5E9050010CE0A /* MXExternalSourceParse.cpp in Sources */,
 				8AD98F912AA59BC8004AFB0C /* AppDelegate.m in Sources */,

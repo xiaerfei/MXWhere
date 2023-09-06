@@ -26,18 +26,23 @@ private:
     AVCodecContext  *m_audioCodecContext;
     AVCodecContext  *m_videoCodecContext;
     
-    int m_videoStream;
-    int m_audioStream;
+    int m_videoStream = -1;
+    int m_audioStream = -1;
     
-    char *m_filePath;
+    const char *m_filePath;
     int m_index;
     
     std::thread m_thread;
-    
+    void sourceParseThread();
     std::atomic<bool> m_running = false;
+    
+    int openFile();
+    int openVideoStream();
+    int openAudioStream();
+    
 public:
-    MXExternalSourceParse();
-    int Start(char *path, int index);
+    ~MXExternalSourceParse();
+    int Start(const char *path, int index);
     int Stop();
     bool Running();
 };

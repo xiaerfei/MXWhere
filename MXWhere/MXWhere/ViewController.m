@@ -6,37 +6,33 @@
 //
 
 #import "ViewController.h"
-#include "MXThread.h"
-#include <pthread.h>
-void thread_func(void *param) {
-    static int cnt = 0;
-    while (1) {
-        sleep(1);
-        printf("\n thread run %d ~~~ \n", cnt++);
-    }
-}
+#import "MXExternalSourceParseManager.h"
 
-@implementation ViewController {
-    pthread_t thread;
-}
+@interface ViewController ()
+@property (strong) IBOutlet NSButton *testButton;
+
+@end
+
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    pthread_create(&thread, NULL, thread_func, NULL);
-    [NSTimer scheduledTimerWithTimeInterval:5 repeats:NO block:^(NSTimer * _Nonnull timer) {
-        [timer invalidate];
-        printf("\n will stop thread \n");
-        pthread_join(self->thread, NULL);
-    }];
+    
 }
 
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
+- (IBAction)testButtonAction:(id)sender {
+    if ([[MXExternalSourceParseManager manager] running]) {
+        [[MXExternalSourceParseManager manager] stop];
+    } else {
+        [[MXExternalSourceParseManager manager] startWithPath:@"path"
+                                                        index:0
+                                                     complete:^(BOOL success) {
+            
+        }];
+    }
 }
+
 
 
 @end
