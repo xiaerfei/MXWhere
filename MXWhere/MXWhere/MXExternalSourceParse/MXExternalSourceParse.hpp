@@ -29,6 +29,8 @@ private:
     int m_videoStream = -1;
     int m_audioStream = -1;
     
+    AVFrame *m_audioFrame;
+    AVFrame *m_videoFrame;
     const char *m_filePath;
     int m_index;
     
@@ -40,6 +42,7 @@ private:
     int openVideoStream();
     int openAudioStream();
     
+    void release();
 public:
     ~MXExternalSourceParse();
     int Start(const char *path, int index);
