@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		05DACCD39305B6943F60463D /* Pods_MXWhere_MXWhereUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A5362E7126861793CD4C11F /* Pods_MXWhere_MXWhereUITests.framework */; };
 		64E24AA92082C4B6FF381DD8 /* Pods_MXWhere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8A5B6F4E0FE92C971301ED /* Pods_MXWhere.framework */; };
+		8A062B442AAB27CD0076021B /* MXExternalSourceQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A062B422AAB27CD0076021B /* MXExternalSourceQueue.cpp */; };
 		8A83B40C2AA5E01A0010CE0A /* MXThread.c in Sources */ = {isa = PBXBuildFile; fileRef = 8A83B40B2AA5E01A0010CE0A /* MXThread.c */; };
 		8A83B4102AA5E9050010CE0A /* MXExternalSourceParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A83B40E2AA5E9050010CE0A /* MXExternalSourceParse.cpp */; };
 		8A83B4132AA813CC0010CE0A /* MXExternalSourceParseManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A83B4122AA813CC0010CE0A /* MXExternalSourceParseManager.mm */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		13823B307E4C38B5F1D483BA /* Pods-MXWhereTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MXWhereTests.debug.xcconfig"; path = "Target Support Files/Pods-MXWhereTests/Pods-MXWhereTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E8A5B6F4E0FE92C971301ED /* Pods_MXWhere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MXWhere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A062B422AAB27CD0076021B /* MXExternalSourceQueue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MXExternalSourceQueue.cpp; sourceTree = "<group>"; };
+		8A062B432AAB27CD0076021B /* MXExternalSourceQueue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MXExternalSourceQueue.hpp; sourceTree = "<group>"; };
 		8A83B40A2AA5E01A0010CE0A /* MXThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXThread.h; sourceTree = "<group>"; };
 		8A83B40B2AA5E01A0010CE0A /* MXThread.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MXThread.c; sourceTree = "<group>"; };
 		8A83B40E2AA5E9050010CE0A /* MXExternalSourceParse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MXExternalSourceParse.cpp; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 			children = (
 				8A83B40E2AA5E9050010CE0A /* MXExternalSourceParse.cpp */,
 				8A83B40F2AA5E9050010CE0A /* MXExternalSourceParse.hpp */,
+				8A062B422AAB27CD0076021B /* MXExternalSourceQueue.cpp */,
+				8A062B432AAB27CD0076021B /* MXExternalSourceQueue.hpp */,
 			);
 			path = MXExternalSourceParse;
 			sourceTree = "<group>";
@@ -442,6 +447,7 @@
 				8AD98F9B2AA59BCE004AFB0C /* main.m in Sources */,
 				8A83B4102AA5E9050010CE0A /* MXExternalSourceParse.cpp in Sources */,
 				8AD98F912AA59BC8004AFB0C /* AppDelegate.m in Sources */,
+				8A062B442AAB27CD0076021B /* MXExternalSourceQueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

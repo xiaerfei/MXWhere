@@ -61,9 +61,12 @@ void MXExternalSourceParse::sourceParseThread() {
         }
         
         if (packet->stream_index == m_videoStream) {
-            
+            int video_size      = packet->size;
+            uint8_t *video_data = (uint8_t *)malloc(video_size);
+            memcpy(video_data, packet->data, video_size);
+            printf("find video stream pts=%lld \n", packet->pts);
         } else if (packet->stream_index == m_audioStream) {
-            
+            printf("find audio stream pts=%lld \n", packet->pts);
         }
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
         printf("thread running \n");
@@ -182,16 +185,11 @@ int MXExternalSourceParse::openAudioStream() {
 
 void MXExternalSourceParse::release() {
     if (m_audioCodecContext) {
-        avcodec_close(m_audioCodecContext);
         avcodec_free_context(&m_audioCodecContext);
         m_audioCodecContext = NULL;
     }
     
     if (m_videoCodecContext) {
-        avcodec_send_packet(m_videoCodecContext, NULL);
-        avcodec_flush_buffers(m_videoCodecContext);
-        
-        avcodec_close(m_videoCodecContext);
         avcodec_free_context(&m_videoCodecContext);
         m_videoCodecContext = NULL;
     }

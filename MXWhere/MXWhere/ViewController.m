@@ -25,7 +25,7 @@
     if ([[MXExternalSourceParseManager manager] running]) {
         [[MXExternalSourceParseManager manager] stop];
     } else {
-        [[MXExternalSourceParseManager manager] startWithPath:@"path"
+        [[MXExternalSourceParseManager manager] startWithPath:@"/Users/tvuanywhere/Downloads/11460544_da3-1-16.mp4"
                                                         index:0
                                                      complete:^(BOOL success) {
             
