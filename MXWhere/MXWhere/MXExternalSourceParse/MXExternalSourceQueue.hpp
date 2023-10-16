@@ -12,6 +12,11 @@
 #include <thread>
 #include <iostream>
 
+typedef enum : int {
+    MXExternalSourceTypeVideo = 0,
+    MXExternalSourceTypeAudio,
+} MXExternalSourceType;
+
 typedef struct MXExternalSourceQueueNode {
     uint8_t *data;
     int dataSize;
@@ -26,7 +31,10 @@ class MXExternalSourceQueue {
 private:
     
 public:
-    
+    int size;
+    MXExternalSourceType sourceType;
+    MXExternalSourceQueueNode *front;
+    MXExternalSourceQueueNode *rear;
 };
 
 
